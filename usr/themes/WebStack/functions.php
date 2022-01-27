@@ -204,7 +204,7 @@ EOT;
 <hr>
 <?php
     // 大logo
-    $Biglogo = new Typecho_Widget_Helper_Form_Element_Text('Biglogo', NULL, '/usr/themes/WebStack/images/logo@2x.png', _t('大LOGO地址(必填)'), _t('大logo地址，尺寸178*40'));
+    $Biglogo = new Typecho_Widget_Helper_Form_Element_Text('Biglogo', NULL, '/usr/themes/WebStack/images/logo.png', _t('大LOGO地址(必填)'), _t('大logo地址，尺寸178*40'));
     $form->addInput($Biglogo);
     echo '<svg  class="icon zmki_aliico" aria-hidden="true"><use xlink:href="#icon-set"></use></svg> <b>提示：主题设置选择后回车可快捷保存</b><hr>';
     // 手机端每行显示数量

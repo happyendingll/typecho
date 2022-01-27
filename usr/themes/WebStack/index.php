@@ -79,7 +79,7 @@ $this->need('header.php');
     <?php while ($posts->next()): ?> 
     <div class="col-sm-3">
 	<?php if($this->options->isLink == '1'): ?>
-	<div class="xe-widget xe-conversations box2 label-info" onclick="window.open('<?php echo $posts->fields->url;?>', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?php echo $posts->fields->url;?>">
+	<div class="xe-widget xe-conversations box2 label-info" onclick="window.open('<?php echo $posts->fields->url;?>', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?php echo $posts->fields->text;?>">
     <div class="xe-comment-entry">
           <a class="xe-user-img">
             <img src="<?php echo $posts->fields->logo;?>" class="img-circle" width="32">
